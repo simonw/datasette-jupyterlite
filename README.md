@@ -5,7 +5,7 @@
 [![Tests](https://github.com/simonw/datasette-jupyterlite/workflows/Test/badge.svg)](https://github.com/simonw/datasette-jupyterlite/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/simonw/datasette-jupyterlite/blob/main/LICENSE)
 
-JupyterLite as a Datasette plugin
+[JupyterLite](https://jupyterlite.readthedocs.io/en/latest/) as a Datasette plugin
 
 ## Installation
 
