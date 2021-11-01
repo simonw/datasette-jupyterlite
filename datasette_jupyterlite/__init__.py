@@ -1,11 +1,11 @@
 from datasette import hookimpl
 from datasette.utils.asgi import Response, NotFound
 import mimetypes
-from importlib import resources
+from importlib_resources import files
 import tarfile
 
 
-tarpath = list(resources.files("jupyterlite").glob("*.tgz"))[0]
+tarpath = list(files("jupyterlite").glob("*.tgz"))[0]
 tf = tarfile.open(tarpath)
 
 

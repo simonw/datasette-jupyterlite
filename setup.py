@@ -28,7 +28,7 @@ setup(
     version=VERSION,
     packages=["datasette_jupyterlite"],
     entry_points={"datasette": ["jupyterlite = datasette_jupyterlite"]},
-    install_requires=["datasette", "jupyterlite"],
+    install_requires=["datasette", "jupyterlite", "importlib-resources"],
     extras_require={"test": ["pytest", "pytest-asyncio"]},
     tests_require=["datasette-jupyterlite[test]"],
     package_data={"datasette_jupyterlite": ["static/*"]},
