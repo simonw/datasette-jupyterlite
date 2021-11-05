@@ -13,6 +13,10 @@ Install this plugin in the same environment as Datasette.
 
     $ datasette install datasette-jupyterlite
 
+## Demo
+
+You can try out a demo of the plugin here: https://latest-with-plugins.datasette.io/jupyterlite/
+
 ## Usage
 
 Once installed, visit `/jupyterlite/` to access JupyterLite served from your Datasette instance.
