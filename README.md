@@ -17,6 +17,16 @@ Install this plugin in the same environment as Datasette.
 
 You can try out a demo of the plugin here: https://latest-with-plugins.datasette.io/jupyterlite/
 
+Run this example code in a Pyolite notebook to pull all of the data from the [github/stars](https://latest-with-plugins.datasette.io/github/stars) table into a Pandas DataFrame:
+
+```python
+import pandas, pyodide
+
+df = pandas.read_csv(pyodide.open_url(
+  "https://latest-with-plugins.datasette.io/github/stars.csv?_labels=on&_stream=on&_size=max")
+)
+```
+
 ## Usage
 
 Once installed, visit `/jupyterlite/` to access JupyterLite served from your Datasette instance.
